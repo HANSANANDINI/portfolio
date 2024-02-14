@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      color: black;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    .resume-container {
+      max-width: 800px;
+      margin: 20px auto;
+      border: 1px solid #ddd;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #f0f0f0; /* Box color */
+    }
+
+    .profile-photo {
+      text-align: center;
+    }
+
+    .profile-photo img {
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      max-width: 150px;
+      width: 100%;
+    }
+
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    .project-details p {
+      border-left: 2px solid #333;
+      padding-left: 10px;
+    }
+
+    .technical-skills {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .technical-skills p {
+      background-color: #ddd;
+      color: #333;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 5px;
+    }
+
+    
+
+    .signature {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+
+    .date {
+      text-align: left;
+      font-size: 14px;
+    }
+
+    .signature img {
+      max-width: 120px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .signature p {
+      margin-top: 5px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hansanandini RU</h1>
+  </header>
+
+  <nav>
+    <a href="#photo">Profile Photo</a>
+    <a href="#career">Career Objective</a>
+    <a href="#education">Educational Qualification</a>
+    <a href="#qualification">Additional Qualification</a>
+    <a href="#interests">Areas of Interest</a>
+    <a href="#projects">Project Details</a>
+    <a href="#skills">Technical Skills</a>
+    <a href="#personal">Personal Details</a>
+  </nav>
+
+  <div class="resume-container">
+    <section class="profile-photo" id="photo">
+      <img src="profile.jpg" alt="Your Photo">
+    </section>
+
+    <section id="career">
+      <h2>Career Objective</h2>
+      <p>To leverage my skills in front-end and back-end development to create innovative and user-friendly web applications. Seeking a challenging role in a dynamic organization where I can contribute my expertise in full stack development and collaborate with a talented team to deliver exceptional software solutions.</p>
+    </section>
+
+    <section id="education">
+      <h2>Educational Qualification</h2>
+      <ul>
+        <li>UG Degree </li>
+        <li>HSc details</li>
+        <li>SSLC details</li>
+      </ul>
+    </section>
+
+    
+
+
+    <section class="project-details" id="projects">
+      <h2>Project Details</h2>
+      <p>Title:Sentimental analysis of customer reviews using nlp,
+        Duration: 1 month (sep-2023),
+        Team Size: 6,
+        Role: Designer, 
+        Description:Sentiment analysis of customer reviews involves using natural language processing techniques to analyze and understand the sentiment expressed in customer feedback. The goal is to determine whether the sentiment is positive, negative, or neutral. By analyzing customer reviews, businesses can gain valuable insights into customer satisfaction and make data-driven decisions to enhance their products or services. It's a powerful application of NLP that can have a significant impact on businesses' understanding of their customers</p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="technical-skills">
+        <p>HTML5</p>
+        <p>CSS3</p>
+        <p>JavaScript</p>
+        <!-- Add more skills as needed -->
+      </div>
+    </section>
+
+
+    <section id="personal">
+      <h2>Personal Details</h2>
+      <p>Gender:female
+         Date of Birth: 8/01/2003
+         Languages Known:Tamil,english,french
+          Father's Name: KP RAMASWAMY</p>
+    </section>
+
+    <div class="signature">
+      <div class="date">25/01/2024, Erode</div>
+      <div>
+        <img src="signature.jpg" >
+        <p>Hansanandini RU</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
